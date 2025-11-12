@@ -5,7 +5,7 @@ const menuData = [
     { id: 4, name: "Grilled Chicken", category: "mains", price: 100, image: "ızgara_tavuk.jpg" },
     { id: 5, name: "Baklava", category: "desserts", price: 120, image: "baklava.jpg" },
     { id: 6, name: "Kunefe", category: "desserts", price: 100, image: "künefe.jpg" },
-    { id: 7, name: "Ayran", category: "drinks", price: 50, image: "ayran.jpg" },
+    { id: 7, name: "Ayran", category: "drinks", price: 60, image: "ayran.jpg" },
     { id: 8, name: "Turnip Juice", category: "drinks", price: 55, image: "şalgam.jpg" }
 ];
 
@@ -120,3 +120,4 @@ window.addEventListener("DOMContentLoaded", () => {
     const yearEl = document.getElementById("year");
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
+
